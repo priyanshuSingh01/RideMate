@@ -7,7 +7,7 @@
 
 body{
     background:url(background_img.png) no-repeat center  center/cover;
-    height: 100vh;
+    height: 100%;
 }
 
 /* nav-bar */
@@ -159,4 +159,5 @@ ul :hover{
 }
 .card h3{
     color: white;
+
 }
