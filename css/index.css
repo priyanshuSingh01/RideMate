@@ -7,7 +7,7 @@
 
 body{
     background:url(../assets/background_img.png) no-repeat center  center/cover;
-    height: 100vh;
+    height: 100%;
 }
 
 /* nav-bar */
