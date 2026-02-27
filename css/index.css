@@ -8,6 +8,7 @@
 body{
     background:url(../assets/background_img.png) no-repeat center  center/cover;
     height: 100%;
+    overflow: hidden;
 }
 
 /* nav-bar */
@@ -65,6 +66,7 @@ ul :hover{
 
 /* hero-section */
 .hero{
+    height: 60vh;
     margin-top: 100px;
     position: relative ;
     display: flex;
@@ -129,6 +131,10 @@ ul :hover{
     color: rgb(240, 240, 240);
     cursor: pointer;
     font-weight: bold;
+}
+
+a{
+    text-decoration: none;
 }
 
 /* feature-section */
