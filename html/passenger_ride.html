@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pssenger Ride | RideMate</title>
+    <link rel="stylesheet" href="../css/passenger_ride.css">
+</head>
+<body>
+    <div id="navbar">
+        <!-- <a href="../index.html">Home</a> -->
+    </div>
+    <div class="heading">
+        <h1>Find Your Perfect Ride</h1>
+        <p>Search for available rides to your destination</p>
+    </div>
+
+    <form action="">
+        <div class="form-group">
+           <label>From</label>
+           <div class="input-box">
+               <i class="fa-solid fa-location-dot"></i></i><input id="fromInput" type="text" placeholder="Enter pickup location" required>
+           </div>
+        </div>
+   
+        <div class="form-group">
+           <label>To</label>
+           <div class="input-box">
+               
+               <i class="fa-solid fa-location-dot"></i><input id="toInput" type="text" placeholder="Enter destination" required>
+           </div>
+        </div>
+   
+        <div class="form-group">
+           <label>Date</label>
+           <div class="input-box">
+   
+               <input id="dateInput" type="date">
+           </div>
+        </div>
+   
+        <button><i class="fa-solid fa-magnifying-glass"></i> Search Rides</button>
+    </form>
+
+    <section class="available-rides">
+       <h2>Available Rides</h2>
+    
+       <div id="ridesContainer" class="rides-container">
+           <p class="no-rides">No rides available. Search to see rides.</p>
+       </div>
+    </section>  
+
+    <script src="../js/nav.js"></script>
+    <script src="../js/passenger_ride.js"></script>
+
+</body>
+    <script src="https://kit.fontawesome.com/eb00c9b4c1.js" crossorigin="anonymous"></script>
+</html>

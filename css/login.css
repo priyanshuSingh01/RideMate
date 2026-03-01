@@ -166,8 +166,15 @@ button:hover {
     text-align: center;
     margin-top: 20px;
 }
+.icon {
+    text-decoration: none;
+    color: #eaeeee;
+    font-weight: 500;
+    
+}
 .back-to-home a {
     text-decoration: none;
     color: #eff1f1;
     font-weight: 500;
+    margin-left: 5px;
 }

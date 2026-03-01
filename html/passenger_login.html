@@ -13,18 +13,26 @@
     </div>
 
     <div class="form_section">
-        <form class="form" action="" method="post">
+        <form id="loginForm" class="form" action="" method="post">
             <label for="Email Address">Email Address:</label>
             <input type="text" name="username" placeholder="Enter your Email" required>
 
+
             <label for="Password">Password:</label>
             <input type="password" name="password" placeholder="Enter your password" required>
-            <button type="submit" onclick="window.location.href='../html/passenger_ride.html'">Sign In</button>
+            <button type="submit">Sign In</button>
+
+            <p class="signup">Don't have an account? <a href="../html/signup.html">signup</p>
         </form>
     </div>
 
     <div class="back_to_login_section">
-        <a href="../html/login.html">Back to Login</a>
+        <i class="fa-solid fa-arrow-left"></i><a href="../html/login.html">Back to Login</a>
     </div>
-</body>
+
+
+    <script src="../js/passenger_login.js"></script>
+</body> 
+
+     <script src="https://kit.fontawesome.com/eb00c9b4c1.js" crossorigin="anonymous"></script>
 </html>

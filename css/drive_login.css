@@ -58,6 +58,7 @@ body {
     border: none;
     background: rgba(255, 255, 255, 0.075);
     backdrop-filter: blur(15px);
+    color: white;
 }
 
 .form button{
@@ -71,14 +72,21 @@ body {
     border: none;
 }
 
+
 /* back_to_login_section */
 .back_to_login_section{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 40px;
+}
+.icon{
+    color: #d0d8d7;
+    font-weight: 500;
+
 }
 .back_to_login_section a{
     color: #d0d8d7;
     font-weight: 500;
     text-decoration: none;
+    margin-left: 5px;
 }
