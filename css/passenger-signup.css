@@ -1,0 +1,83 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background: linear-gradient(135deg,#041524 0%,#071a2c 30%,#1c3752 55%,#8fa3a6 100%);
+}
+
+.container{
+width:400px;
+padding:40px;
+border-radius:15px;
+
+background:rgba(255,255,255,0.08);
+backdrop-filter: blur(10px);
+
+color:white;
+}
+
+.container h1{
+text-align:center;
+margin-bottom:5px;
+}
+
+.container p{
+text-align:center;
+margin-bottom:30px;
+color:#ccc;
+}
+
+.input-box{
+margin-bottom:20px;
+}
+
+.input-box label{
+display:block;
+margin-bottom:5px;
+}
+
+.input-box input{
+width:100%;
+padding:12px;
+border-radius:10px;
+border:1px solid rgba(255,255,255,0.3);
+background: rgba(255, 255, 255, 0.075);
+backdrop-filter: blur(15px);
+color:white;
+outline:none;
+}
+
+.input-box input::placeholder{
+color:#bbb;
+}
+
+button{
+width:100%;
+padding:12px;
+border:none;
+border-radius:10px;
+background:#14b8a6;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+.sign_in{
+    margin-top: 20px;
+}
+.sign_in a{
+    color: #14b8a6;
+    text-decoration: none;
+}
+
+button:hover{
+background:#009ec3;
+}

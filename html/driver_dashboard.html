@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Your Ride</title>
+    <link rel="stylesheet" href="../css/driver_dashboard.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+
+        <h1>Post Your Ride</h1>
+        <p class="subtitle">
+            Share your journey and connect with passengers
+        </p>
+
+        <div class="form-container">
+
+            <form id="postRideForm">
+
+                <!-- Trip Details -->
+                <h2>Trip Details</h2>
+
+                <div class="input-box">
+                    <label for="from">From</label>
+                    <input 
+                        type="text" 
+                        id="from"
+                        placeholder="Starting location (City, Address)" 
+                        required
+                    >
+                </div>
+
+                <div class="input-box">
+                    <label for="to">To</label>
+                    <input 
+                        type="text" 
+                        id="to"
+                        placeholder="Destination (City, Address)" 
+                        required
+                    >
+                </div>
+
+                <div class="input-box">
+                    <label for="pickup">Pickup Points (Optional)</label>
+                    <input 
+                        type="text" 
+                        id="pickup"
+                        placeholder="e.g. City Center, Highway Exit 5"
+                    >
+                </div>
+
+                <div class="row">
+
+                    <div class="column">
+                        <label for="date">Date</label>
+                        <input type="date" id="date">
+                    </div>
+
+                    <div class="column">
+                        <label for="time">Departure Time</label>
+                        <input type="time" id="time">
+                    </div>
+
+                </div>
+
+                <hr>
+
+                <!-- Vehicle Details -->
+                <h2>Vehicle Details</h2>
+
+                <div class="input-box">
+                    <label for="vehicleType">Vehicle Type</label>
+
+                    <select id="vehicleType">
+                        <option>Select vehicle type</option>
+                        <option>Car</option>
+                        <option>Bike</option>
+                        <option>Van</option>
+                    </select>
+                </div>
+
+                <div class="input-box">
+                    <label for="vehicleModel">Vehicle Model (Optional)</label>
+                    <input 
+                        type="text"
+                        id="vehicleModel"
+                        placeholder="e.g. Toyota Camry 2020"
+                    >
+                </div>
+
+                <hr>
+
+                <!-- Pricing -->
+                <h2>Pricing & Availability</h2>
+
+                <div class="row">
+
+                    <div class="column">
+                        <label for="seats">Available Seats</label>
+                        <input 
+                            type="number"
+                            id="seats"
+                            placeholder="1-7"
+                        >
+                    </div>
+
+                    <div class="column">
+                        <label for="price">Price per Seat ($)</label>
+                        <input 
+                            type="number"
+                            id="price"
+                            placeholder="0.00"
+                        >
+                    </div>
+
+                </div>
+
+                <button class="post-btn" type="submit">
+                    Post Ride
+                </button>
+
+            </form>
+
+        </div>
+
+
+        <!-- Tips Section -->
+        <div class="tips">
+
+            <h3>💡 Tips for a Great Ride</h3>
+
+            <ul>
+                <li>
+                    Be punctual and communicate any delays with your passengers
+                </li>
+
+                <li>
+                    Keep your vehicle clean and comfortable
+                </li>
+
+                <li>
+                    Set a fair price based on distance and fuel costs
+                </li>
+
+                <li>
+                    Respect passenger preferences and maintain a friendly atmosphere
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
