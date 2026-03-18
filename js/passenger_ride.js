@@ -1,7 +1,10 @@
-const rides = [
-    { from: "Delhi", to: "Chandigarh", date: "2026-03-05", seats: 3, price: 500 },
-    { from: "Mumbai", to: "Pune", date: "2026-03-07", seats: 2, price: 400 }
-];
+// const rides = [
+//     { from: "Delhi", to: "Chandigarh", date: "2026-03-05", seats: 3, price: 500 },
+//     { from: "Mumbai", to: "Pune", date: "2026-03-07", seats: 2, price: 400 }
+// ];
+
+
+let rides = JSON.parse(localStorage.getItem('rides')) || [];
 
 document.querySelector('form').addEventListener('submit', function(e) {
     e.preventDefault();

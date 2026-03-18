@@ -1,4 +1,4 @@
-document.getElementById('signupForm').addEventListener('submit', function(e) {
+document.getElementById('loginform').addEventListener('submit', function(e) {
     e.preventDefault();
 
     let email = document.getElementById('email').value;
@@ -11,7 +11,7 @@ document.getElementById('signupForm').addEventListener('submit', function(e) {
 
     let storedDriver = JSON.parse(localStorage.getItem('driver'));
 
-    if(driver && email === driver.email && password === driver.password){
+    if(storedDriver && email === storedDriver.email && password === storedDriver.password){
 
        alert("Login successful");
        
