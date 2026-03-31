@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         let driverInfo = document.createElement('div');
         let name = document.createElement('h3');
-        name.textContent = ride.driverName || "John Doe";
+        name.textContent = ride.driverName ;
 
         let rating = document.createElement('p');
         rating.textContent = "⭐ 4.8 · 127 trips";
@@ -99,3 +99,5 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
 });
+
+
